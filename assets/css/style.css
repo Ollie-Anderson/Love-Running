@@ -1,3 +1,11 @@
-p {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Lato;  
 }
