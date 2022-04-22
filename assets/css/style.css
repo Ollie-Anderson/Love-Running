@@ -164,6 +164,7 @@ hr {
 #circle-cover-bg {
   background: url("../images/ethos-runner-image.png") no-repeat center center;
   height: 100%;
+  border-radius: 50%;
 }
 
 @keyframes hero-zoom {
