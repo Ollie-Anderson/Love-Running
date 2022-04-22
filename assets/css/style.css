@@ -165,7 +165,6 @@ hr {
   background-color: #d78a04bb;
   background-image: url("../images/ethos-runner-image.png?text=runner") no-repeat center center;
   height: 100%;
-  border-radius: 50%;
 }
 
 @keyframes hero-zoom {
