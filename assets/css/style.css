@@ -162,7 +162,8 @@ hr {
 }
 
 #circle-cover-bg {
-  background: url("../images/ethos-runner-image.png") no-repeat center center;
+  background-color: #d78a04bb;
+  background-image: url("../images/ethos-runner-image.png?text=runner") no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }
