@@ -8,4 +8,77 @@
 
 body {
   font-family: Lato;  
+  color: #777;
+}
+
+h2 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #555;
+}
+
+.active {
+  /*border-bottom: 1px solid#777;*/
+  text-decoration: underline !important;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+}
+
+#menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  text-align: right;
+  float: right;
+}
+
+#logo, #menu {
+  line-height: 75px;
+}
+
+#menu li {
+  /*float: right;*/
+  display: inline;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+#menu a:hover {
+  /*border-bottom: 1px solid#777;*/
+  text-decoration: underline;
+}
+#hero-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.png") no-repeat center center;
+
+
+/*  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forward;
+  */
+}
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+@keyframes hero-zoom {
+  from{
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
