@@ -161,6 +161,10 @@ hr {
   margin: 0 auto;
 }
 
+#circle-cover-bg {
+  background: url("../images/ethos-runner-image.png") no-repeat center center;
+  height: 100%;
+}
 
 @keyframes hero-zoom {
   from{
