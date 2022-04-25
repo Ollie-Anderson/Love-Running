@@ -167,6 +167,12 @@ hr {
   border-radius: 50%;
 }
 
+/*---Meetup Times Styling---*/
+
+#times {
+  background-image: url();
+}
+
 @keyframes hero-zoom {
   from{
     transform: scale(1);
