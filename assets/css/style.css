@@ -170,7 +170,7 @@ hr {
 /*---Meetup Times Styling---*/
 
 #times {
-  background-image: url();
+  background-image: url("../images/dublin-city.png");
 }
 
 @keyframes hero-zoom {
