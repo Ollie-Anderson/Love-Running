@@ -24,6 +24,25 @@ hr {
   margin: 5px 0;
 }
 
+footer {
+	height: 150px;
+}
+
+.social-networks {
+	text-align: center;
+}
+
+.social-networks li {
+	display: inline;
+}
+
+.social-networks i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #777;
+}
+
 .active {
   /*border-bottom: 1px solid#777;*/
   text-decoration: underline !important;
@@ -52,6 +71,7 @@ hr {
 #logo {
   float: left;
   font-size: 280%;
+  margin-left: 30px;
 }
 
 #menu {
@@ -171,7 +191,122 @@ hr {
 
 #times {
   background-image: url("../images/dublin-city.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
 }
+
+#times div{
+	color: #fafafa;
+	background-color: rgba(0, 0, 0, .6);
+	width: 19%;
+	height: 300px;
+	float: left; /* <--- THIS ELIMITAED THE NEED FOR DISPLAY: INLINE (REVISION)*/
+	padding: 30px 0 0 10px;
+	text-align: center;
+	margin: 4px;
+}
+
+#times h2 {
+	color: #fafafa;
+}
+
+
+/*--- gallery page styling---*/
+
+#photos {
+	clear: both;
+	line height: 0;
+	column-count: 4;
+	column-gap: 0;
+}
+
+#photos img {
+	width: 100%;
+}
+
+
+/*--- Tablet size Media Query Styling ---*/
+
+@media screen and (max-width: 1393px ) {
+	#club-ethos {
+		width: 65%;
+		height: 1200px;
+		margin: 0 auto;
+	}
+	
+	#welcome {
+		padding: 30px 0;
+		margin-top: 0;
+	}
+	
+	#left-about, #right-about {
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
+	
+	#centre-about {
+		clear: both;
+		width: 100%;
+		float: left;
+		padding: 0;
+	}
+	
+	hr {
+		display: none;
+	}
+	
+	#times  div{
+		width: 100%;
+		clear: both;
+		height: 150%;
+		border-style: solid;
+		border-bottom-color: #fff;
+		border-bottom-width: 1px;
+		padding: 0px;
+	}
+}
+
+
+/*--- Smartphone size Media Query Styling ---*/
+
+@media screen and (max-width: 943px) {
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line0height: 25px;
+	}
+	
+	#cover-text {
+		left: 0px;
+	}
+	
+	#club-ethos {
+		width: 90%;
+		height: 1200px;
+		margin: 0 auto;
+	}
+	
+	.left-about-heading, .right-about-heading {
+		width: inherit;
+	}
+	
+	.left-about-heading h2, .right-about-heading h2 {
+		width: 100%;
+		text-align: center;
+	}
+	.left-about-heading, .right-about-heading {
+		text-align: center;
+		padding: 0 20px;
+	}
+}
+
+/*---Animation Definitions---*/
 
 @keyframes hero-zoom {
   from{
