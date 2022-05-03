@@ -309,6 +309,8 @@ footer {
 	
 	#photos {
 		column-count: 3;
+		margin: 0 auto;
+		padding: 0;
 	}
 }
 
